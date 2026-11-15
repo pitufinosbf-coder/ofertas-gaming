@@ -232,13 +232,13 @@
 </footer>
 
 <script>
-  // Pon aquí tu ID de afiliado de Amazon (por ejemplo "tunombre-21")
-  const AMAZON_TAG = "TU-ID-AQUI-21";
+  // ID de afiliado de Amazon
+  const AMAZON_TAG = "pitufino19-21";
 
   document.querySelectorAll("a[data-q]").forEach(a => {
     const url = new URL("https://www.amazon.es/s");
     url.searchParams.set("k", a.dataset.q);
-    if (AMAZON_TAG && !AMAZON_TAG.startsWith("TU-ID")) url.searchParams.set("tag", AMAZON_TAG);
+    if (AMAZON_TAG) url.searchParams.set("tag", AMAZON_TAG);
     a.href = url.toString();
   });
 
