@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ofertas Gaming España · Todo para el lanzamiento de GTA 6</title>
+<meta name="description" content="Dónde comprar GTA 6 en España, packs de PS5, discos SSD, mandos y auriculares. Ofertas gaming para el lanzamiento del 19 de noviembre y Black Friday.">
+<style>
+  :root{
+    --bg:#0d0a14; --card:#17121f; --line:#2a2236; --text:#f3eef8; --muted:#a99db8;
+    --pink:#ff3d8b; --orange:#ff9a3c; --teal:#2ee6c5;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
+  a{color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  header{padding:18px 0;border-bottom:1px solid var(--line)}
+  header .wrap{display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .logo{font-weight:800;letter-spacing:.5px;font-size:1.15rem}
+  .logo span{background:linear-gradient(90deg,var(--pink),var(--orange));-webkit-background-clip:text;background-clip:text;color:transparent}
+  nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:.95rem}
+  nav a:hover{color:var(--text)}
+  .hero{padding:70px 0 50px;text-align:center;background:radial-gradient(ellipse at top,rgba(255,61,139,.22),transparent 60%),radial-gradient(ellipse at bottom right,rgba(255,154,60,.15),transparent 55%)}
+  .tag{display:inline-block;border:1px solid var(--pink);color:var(--pink);border-radius:99px;padding:4px 14px;font-size:.8rem;font-weight:600;letter-spacing:.5px;text-transform:uppercase}
+  h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.1;margin:18px 0 14px;font-weight:850}
+  h1 em{font-style:normal;background:linear-gradient(90deg,var(--pink),var(--orange));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero p{color:var(--muted);max-width:620px;margin:0 auto;font-size:1.08rem}
+  .countdown{display:flex;justify-content:center;gap:12px;margin:34px 0 8px}
+  .cd{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 0;width:84px}
+  .cd b{display:block;font-size:2rem;font-variant-numeric:tabular-nums}
+  .cd small{color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:1px}
+  .cd-label{color:var(--muted);font-size:.9rem}
+  section{padding:54px 0}
+  h2{font-size:1.7rem;margin-bottom:6px}
+  .sub{color:var(--muted);margin-bottom:26px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;transition:transform .15s,border-color .15s}
+  .card:hover{transform:translateY(-3px);border-color:var(--pink)}
+  .ico{font-size:2rem;margin-bottom:10px}
+  .card h3{font-size:1.08rem;margin-bottom:6px}
+  .card p{color:var(--muted);font-size:.93rem;flex:1;margin-bottom:16px}
+  .badge{align-self:flex-start;font-size:.72rem;font-weight:700;color:#0d0a14;background:var(--teal);border-radius:6px;padding:2px 8px;margin-bottom:10px}
+  .btn{display:block;text-align:center;text-decoration:none;font-weight:700;border-radius:10px;padding:11px 14px;background:linear-gradient(90deg,var(--pink),var(--orange));color:#fff}
+  .btn:hover{filter:brightness(1.1)}
+  .tip{background:linear-gradient(135deg,rgba(46,230,197,.12),rgba(255,61,139,.08));border:1px solid var(--line);border-radius:16px;padding:26px;margin-top:26px}
+  .tip h3{margin-bottom:6px}
+  .tip p{color:var(--muted)}
+  .bf{background:linear-gradient(180deg,transparent,rgba(255,61,139,.08))}
+  .faq details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:10px}
+  .faq summary{cursor:pointer;font-weight:650}
+  .faq p{color:var(--muted);margin-top:10px}
+  footer{border-top:1px solid var(--line);padding:30px 0 40px;color:var(--muted);font-size:.85rem}
+  footer p{margin-bottom:8px}
+  @media(max-width:600px){nav{display:none}.cd{width:70px}.cd b{font-size:1.6rem}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="logo">Ofertas<span>Gaming</span>.es</div>
+    <nav>
+      <a href="#juego">El juego</a>
+      <a href="#consola">Consolas</a>
+      <a href="#accesorios">Accesorios</a>
+      <a href="#blackfriday">Black Friday</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <span class="tag">Lanzamiento · 19 de noviembre</span>
+    <h1>Prepárate para <em>GTA 6</em><br>sin pagar de más</h1>
+    <p>Dónde comprar el juego en España, qué consola elegir y los accesorios que vas a necesitar. Todo en un sitio, actualizado para el lanzamiento y el Black Friday.</p>
+    <div class="countdown" id="cd">
+      <div class="cd"><b id="d">0</b><small>días</small></div>
+      <div class="cd"><b id="h">0</b><small>horas</small></div>
+      <div class="cd"><b id="m">0</b><small>min</small></div>
+      <div class="cd"><b id="s">0</b><small>seg</small></div>
+    </div>
+    <div class="cd-label" id="cd-label">para el lanzamiento en PS5 y Xbox Series X|S</div>
+  </div>
+</div>
+
+<section id="juego">
+  <div class="wrap">
+    <h2>🎮 Comprar el juego</h2>
+    <p class="sub">Sale en PS5 y Xbox Series X|S. La versión de PC todavía no tiene fecha.</p>
+    <div class="grid">
+      <div class="card">
+        <span class="badge">MÁS VENDIDO</span>
+        <h3>GTA 6 · PS5 (edición física)</h3>
+        <p>Edición en disco para PlayStation 5. La física la puedes revender o prestar cuando la termines.</p>
+        <a class="btn" data-q="grand theft auto vi ps5" href="#" rel="sponsored nofollow noopener" target="_blank">Ver precio en Amazon</a>
+      </div>
+      <div class="card">
+        <h3>GTA 6 · Xbox Series X|S</h3>
+        <p>Edición para Xbox Series X y Series S. Compatible con las dos consolas.</p>
+        <a class="btn" data-q="grand theft auto vi xbox series" href="#" rel="sponsored nofollow noopener" target="_blank">Ver precio en Amazon</a>
+      </div>
+      <div class="card">
+        <h3>Ediciones especiales</h3>
+        <p>Ediciones con contenido extra. Échales un ojo antes de que se agoten el día del lanzamiento.</p>
+        <a class="btn" data-q="grand theft auto vi edicion especial" href="#" rel="sponsored nofollow noopener" target="_blank">Ver ediciones</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="consola">
+  <div class="wrap">
+    <h2>🕹️ ¿No tienes consola todavía?</h2>
+    <p class="sub">El juego no sale en PS4 ni Xbox One. Estas son las opciones.</p>
+    <div class="grid">
+      <div class="card">
+        <span class="badge">RECOMENDADO</span>
+        <h3>PS5 Slim</h3>
+        <p>La opción equilibrada. Comprueba si viene con lector de discos si quieres la edición física.</p>
+        <a class="btn" data-q="ps5 slim consola" href="#" rel="sponsored nofollow noopener" target="_blank">Ver precio</a>
+      </div>
+      <div class="card">
+        <h3>PS5 Pro</h3>
+        <p>Para exprimir los gráficos en una tele 4K. Más cara, pero la mejor experiencia en consola.</p>
+        <a class="btn" data-q="ps5 pro consola" href="#" rel="sponsored nofollow noopener" target="_blank">Ver precio</a>
+      </div>
+      <div class="card">
+        <h3>Xbox Series X</h3>
+        <p>La alternativa potente de Microsoft. Si ya tienes Game Pass puede compensarte.</p>
+        <a class="btn" data-q="xbox series x consola" href="#" rel="sponsored nofollow noopener" target="_blank">Ver precio</a>
+      </div>
+      <div class="card">
+        <h3>Xbox Series S</h3>
+        <p>La más barata para jugar en la nueva generación. Solo digital y con menos almacenamiento.</p>
+        <a class="btn" data-q="xbox series s consola" href="#" rel="sponsored nofollow noopener" target="_blank">Ver precio</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="accesorios">
+  <div class="wrap">
+    <h2>🎧 Accesorios que vas a necesitar</h2>
+    <p class="sub">Lo que mucha gente se da cuenta de que le falta el mismo día que lo instala.</p>
+    <div class="grid">
+      <div class="card">
+        <span class="badge">IMPRESCINDIBLE</span>
+        <div class="ico">💾</div>
+        <h3>SSD para ampliar la PS5</h3>
+        <p>Es un juego enorme. Si tu consola va justa de espacio, un SSD NVMe compatible te evita borrar media biblioteca.</p>
+        <a class="btn" data-q="ssd nvme ps5 disipador 2tb" href="#" rel="sponsored nofollow noopener" target="_blank">Ver SSD compatibles</a>
+      </div>
+      <div class="card">
+        <div class="ico">🎮</div>
+        <h3>Mando DualSense extra</h3>
+        <p>Para jugar con amigos o tener siempre uno cargado.</p>
+        <a class="btn" data-q="mando dualsense ps5" href="#" rel="sponsored nofollow noopener" target="_blank">Ver mandos</a>
+      </div>
+      <div class="card">
+        <div class="ico">🔌</div>
+        <h3>Base de carga</h3>
+        <p>Para dejar los mandos cargando y que no te quedes sin batería a mitad de misión.</p>
+        <a class="btn" data-q="base carga mandos ps5" href="#" rel="sponsored nofollow noopener" target="_blank">Ver bases</a>
+      </div>
+      <div class="card">
+        <div class="ico">🎧</div>
+        <h3>Auriculares gaming</h3>
+        <p>Para el online, un buen sonido envolvente cambia la experiencia.</p>
+        <a class="btn" data-q="auriculares gaming ps5 inalambricos" href="#" rel="sponsored nofollow noopener" target="_blank">Ver auriculares</a>
+      </div>
+      <div class="card">
+        <div class="ico">📺</div>
+        <h3>Tele o monitor 4K</h3>
+        <p>Si vas a por la PS5 Pro o la Series X, una pantalla 4K con 120 Hz la aprovecha de verdad.</p>
+        <a class="btn" data-q="television 4k 120hz gaming" href="#" rel="sponsored nofollow noopener" target="_blank">Ver pantallas</a>
+      </div>
+      <div class="card">
+        <div class="ico">💳</div>
+        <h3>PlayStation Plus</h3>
+        <p>Necesario para jugar online en PS5.</p>
+        <a class="btn" data-q="playstation plus suscripcion" href="#" rel="sponsored nofollow noopener" target="_blank">Ver suscripciones</a>
+      </div>
+    </div>
+    <div class="tip">
+      <h3>💡 Consejo antes de comprar</h3>
+      <p>Compara el precio del pack consola + juego con el de comprarlos por separado. Muchas veces el pack sale más barato, y en Black Friday (27 de noviembre) suele haber descuentos en consolas y accesorios.</p>
+    </div>
+  </div>
+</section>
+
+<section id="blackfriday" class="bf">
+  <div class="wrap">
+    <h2>🔥 Black Friday gaming · 27 de noviembre</h2>
+    <p class="sub">Una semana después del lanzamiento llegan los descuentos. Lo más interesante para gamers:</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Ofertas en consolas</h3>
+        <p>Packs y consolas rebajadas.</p>
+        <a class="btn" data-q="ofertas consolas black friday" href="#" rel="sponsored nofollow noopener" target="_blank">Ver ofertas</a>
+      </div>
+      <div class="card">
+        <h3>Ofertas en videojuegos</h3>
+        <p>Juegos de PS5 y Xbox rebajados.</p>
+        <a class="btn" data-q="ofertas videojuegos ps5" href="#" rel="sponsored nofollow noopener" target="_blank">Ver ofertas</a>
+      </div>
+      <div class="card">
+        <h3>Ofertas en accesorios</h3>
+        <p>Mandos, auriculares y almacenamiento con descuento.</p>
+        <a class="btn" data-q="ofertas accesorios gaming" href="#" rel="sponsored nofollow noopener" target="_blank">Ver ofertas</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="wrap">
+    <h2>Preguntas frecuentes</h2>
+    <p class="sub">&nbsp;</p>
+    <details><summary>¿Cuándo sale GTA 6?</summary><p>El 19 de noviembre de 2026 en PS5 y Xbox Series X|S.</p></details>
+    <details><summary>¿Sale en PC?</summary><p>De momento no hay fecha para PC. En el lanzamiento solo está en consolas.</p></details>
+    <details><summary>¿Sale en PS4 o Xbox One?</summary><p>No. Solo está en consolas de nueva generación (PS5 y Xbox Series X|S).</p></details>
+    <details><summary>¿Necesito ampliar el almacenamiento?</summary><p>Depende de lo que tengas instalado. Si tu consola anda justa, un SSD compatible es la forma más cómoda de hacer sitio.</p></details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p><strong>Como Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables.</strong> Los precios y la disponibilidad pueden cambiar; consulta siempre el precio final en Amazon.</p>
+    <p>Web independiente de fans. No está afiliada, patrocinada ni respaldada por Rockstar Games ni Take-Two Interactive. Todas las marcas pertenecen a sus respectivos propietarios.</p>
+    <p>© 2026 OfertasGaming.es</p>
+  </div>
+</footer>
+
+<script>
+  // Pon aquí tu ID de afiliado de Amazon (por ejemplo "tunombre-21")
+  const AMAZON_TAG = "TU-ID-AQUI-21";
+
+  document.querySelectorAll("a[data-q]").forEach(a => {
+    const url = new URL("https://www.amazon.es/s");
+    url.searchParams.set("k", a.dataset.q);
+    if (AMAZON_TAG && !AMAZON_TAG.startsWith("TU-ID")) url.searchParams.set("tag", AMAZON_TAG);
+    a.href = url.toString();
+  });
+
+  const target = new Date("2026-11-19T00:00:00+01:00").getTime();
+  function tick(){
+    const diff = target - Date.now();
+    if (diff <= 0){
+      document.getElementById("cd").style.display = "none";
+      document.getElementById("cd-label").textContent = "¡Ya está a la venta en PS5 y Xbox Series X|S!";
+      return;
+    }
+    document.getElementById("d").textContent = Math.floor(diff/864e5);
+    document.getElementById("h").textContent = Math.floor(diff/36e5)%24;
+    document.getElementById("m").textContent = Math.floor(diff/6e4)%60;
+    document.getElementById("s").textContent = Math.floor(diff/1e3)%60;
+  }
+  tick(); setInterval(tick, 1000);
+</script>
+</body>
+</html>
